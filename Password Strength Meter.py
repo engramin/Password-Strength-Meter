@@ -3,7 +3,7 @@
 # 1-5 Characters --- Weak
 # 6-9 Characters --- Fair
 # 10-14 Characters --- Good
-# >= Characters --- Strong
+# >=15 Characters --- Strong
 
 password=input("Type your Password: ")
 if len(password) <=5:
