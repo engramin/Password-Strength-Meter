@@ -1,0 +1,14 @@
+import string
+string1=string.ascii_letters
+string2=string.digits
+string3=string.punctuation
+string4=string1+string2+string3
+
+password=input("Evaluate your Password: ")
+
+if len(password) <=5 and string1:
+    print('Your Password is Short,To make it Fair increase the Length > 8')
+elif len(password) <=8 and string1 and string2:
+    print ('Your Password is Fair')
+elif len(password) >=8 and string4:
+    print('Your Password is Strong')
